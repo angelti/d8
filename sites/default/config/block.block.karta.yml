@@ -1,0 +1,31 @@
+uuid: de3dca61-e583-4132-a0d7-29ad8f4b0a1d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:57738907-5b4f-492c-bca5-1caa297ffb81'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: karta
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:57738907-5b4f-492c-bca5-1caa297ffb81'
+settings:
+  id: 'block_content:57738907-5b4f-492c-bca5-1caa297ffb81'
+  label: Карта
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

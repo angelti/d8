@@ -1,0 +1,25 @@
+uuid: a31003a4-4097-478a-9959-0ead86d51465
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:block_with_pd:54ba9f85-f1c8-4326-91e6-e79421dd9b95'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: book
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:54ba9f85-f1c8-4326-91e6-e79421dd9b95'
+settings:
+  id: 'block_content:54ba9f85-f1c8-4326-91e6-e79421dd9b95'
+  label: Book
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

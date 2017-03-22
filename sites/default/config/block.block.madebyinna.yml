@@ -1,0 +1,31 @@
+uuid: ec2d8738-3b6f-46ea-9442-28c2931a3ab7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bb7030da-6ce5-4b17-9b12-d817b9f0fb23'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: madebyinna
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:bb7030da-6ce5-4b17-9b12-d817b9f0fb23'
+settings:
+  id: 'block_content:bb7030da-6ce5-4b17-9b12-d817b9f0fb23'
+  label: 'Made by Inna'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
