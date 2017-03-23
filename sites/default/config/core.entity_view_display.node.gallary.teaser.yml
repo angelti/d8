@@ -1,0 +1,26 @@
+uuid: 3690a049-871f-470f-9bac-1e866e1c898b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.gallary.body
+    - node.type.gallary
+  module:
+    - text
+    - user
+id: node.gallary.teaser
+targetEntityType: node
+bundle: gallary
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

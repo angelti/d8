@@ -1,0 +1,28 @@
+uuid: 11fe4447-316b-458f-9419-75ec4d58ed63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_term
+    - node.type.block
+    - taxonomy.vocabulary.categories
+id: node.block.field_term
+field_name: field_term
+entity_type: node
+bundle: block
+label: term
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categories: categories
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,7 @@
+uuid: 7ec83ef3-1be4-43ac-aba3-f0bf5ddc6636
+langcode: en
+status: false
+dependencies: {  }
+formId: node_gallary_form
+captchaType: default
+label: null

@@ -1,0 +1,34 @@
+uuid: e4666200-c1ef-4495-bd35-f7760eefe0f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallary.body
+    - field.field.node.gallary.field_image_
+    - node.type.gallary
+  module:
+    - image
+    - text
+    - user
+id: node.gallary.default
+targetEntityType: node
+bundle: gallary
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_image_:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 100
+hidden: {  }
